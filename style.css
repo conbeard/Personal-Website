@@ -1,0 +1,1314 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    hr {
+        margin-bottom: 3em;
+    }
+
+    div.content {
+        padding: 2em;
+    }
+
+    div.content h1,
+    div.content h2,
+    div.content h3,
+    div.content h4,
+    div.content h5,
+    div.content h6 {
+        font-family: 'DM Serif Text', serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content p,
+    div.content li {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content h1 {
+        font-size: 7em;
+    }
+
+    div.content h2 {
+        font-size: 6em;
+    }
+
+    div.content h3 {
+        font-size: 5em;
+    }
+
+    div.content h4 {
+        font-size: 4em;
+    }
+
+    div.content h5 {
+        font-size: 3em;
+    }
+
+    div.content h6 {
+        font-size: 2em;
+    }
+
+    div.content span.label {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75em;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin: 5px 5px 5px 0;
+    }
+
+    div.footer.content {
+        text-align: center;
+    }
+
+    div.content.footer a {
+        text-decoration: none;
+    }
+
+    div.content.footer a:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    div.footer.content p.copyright {
+        text-align: center;
+    }
+
+    div.footer.content div.link {
+        text-align: center;
+        display: inline-block;
+        margin: 2em 4em 3em;
+    }
+
+    div.footer.content div.link svg {
+        opacity: 0.5;
+        margin: auto;
+        width: 6em;
+        height: 6em;
+    }
+
+    div.footer.content div.link svg:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    div.main.content {
+        background: url("assets/nature.jpeg") no-repeat fixed bottom center;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
+        padding: 0;
+    }
+
+    div.main.content h1,
+    div.main.content h3,
+    div.main.content h4 {
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    div.main.content div.name {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+
+    div.main.content h3 {
+        line-height: 5rem;
+    }
+
+    div.main.content h1 {
+        line-height: 7rem;
+        letter-spacing: 5px;
+    }
+
+    div.main.content h4 {
+        line-height: 4rem;
+    }
+
+    div.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+
+    div.dark.content {
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+    }
+
+    div.light.content {
+        color: #000000;
+    }
+
+    div.experience {
+        margin-bottom: 2.5em;
+    }
+
+    div.experience h6.dates {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    div.light.content p,
+    div.light.content li,
+    div.light.content a,
+    div.light.content a:visited {
+        color: #444444;
+    }
+
+    div.light.content a:hover {
+        color: #000000;
+        cursor: pointer;
+    }
+
+    div.light.content ul {
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+
+    div.light.content span.label {
+        background-color: #1A1A1A;
+        /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+        color: #FFFFFF;
+    }
+
+    div.card {
+        position: relative;
+        background-color: #efefef;
+        background-clip: padding-box;
+        margin-bottom: 2em;
+        border: 3px solid transparent;
+        border-radius: 1em;
+        padding: 2em;
+    }
+
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+    /*}*/
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*!* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45f9f9+0,20ea96+100 *!*/
+    /*background: #45f9f9; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg,  #45f9f9 0%, #20ea96 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg,  #45f9f9 0%,#20ea96 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg,  #45f9f9 0%,#20ea96 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45f9f9', endColorstr='#20ea96',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+    /*}*/
+    div.title {
+        position: relative;
+    }
+
+    div.title div.right {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 2em;
+    }
+
+    div.active {
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    div.skill {
+        margin-bottom: 2em;
+    }
+
+    div.skill h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    div.full-bar {
+        border: 1px solid #e4e4e4;
+        width: 100%;
+    }
+
+    div.progress-bar {
+        border: 3px solid #6a6a6a;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    hr {
+        margin-bottom: 3em;
+    }
+
+    div.content {
+        padding: 2em;
+    }
+
+    div.content h1,
+    div.content h2,
+    div.content h3,
+    div.content h4,
+    div.content h5,
+    div.content h6 {
+        font-family: 'DM Serif Text', serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content p,
+    div.content li {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content h1 {
+        font-size: 7em;
+    }
+
+    div.content h2 {
+        font-size: 6em;
+    }
+
+    div.content h3 {
+        font-size: 5em;
+    }
+
+    div.content h4 {
+        font-size: 4em;
+    }
+
+    div.content h5 {
+        font-size: 3em;
+    }
+
+    div.content h6 {
+        font-size: 2em;
+    }
+
+    div.content span.label {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75em;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin: 5px 5px 5px 0;
+    }
+
+    div.footer.content {
+        text-align: center;
+    }
+
+    div.content.footer a {
+        text-decoration: none;
+    }
+
+    div.content.footer a:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    div.footer.content p.copyright {
+        text-align: center;
+    }
+
+    div.footer.content div.link {
+        text-align: center;
+        display: inline-block;
+        margin: 2em 4em 3em;
+    }
+
+    div.footer.content div.link svg {
+        opacity: 0.5;
+        margin: auto;
+        width: 6em;
+        height: 6em;
+    }
+
+    div.footer.content div.link svg:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    div.main.content {
+        background: url("assets/nature.jpeg") no-repeat fixed bottom center;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
+        padding: 0;
+    }
+
+    div.main.content h1,
+    div.main.content h3,
+    div.main.content h4 {
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    div.main.content div.name {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+
+    div.main.content h3 {
+        line-height: 5rem;
+    }
+
+    div.main.content h1 {
+        line-height: 7rem;
+        letter-spacing: 5px;
+    }
+
+    div.main.content h4 {
+        line-height: 4rem;
+    }
+
+    div.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+
+    div.dark.content {
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+    }
+
+    div.light.content {
+        color: #000000;
+    }
+
+    div.experience {
+        margin-bottom: 2.5em;
+    }
+
+    div.experience h6.dates {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    div.light.content p,
+    div.light.content li,
+    div.light.content a,
+    div.light.content a:visited {
+        color: #444444;
+    }
+
+    div.light.content a:hover {
+        color: #000000;
+        cursor: pointer;
+    }
+
+    div.light.content ul {
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+
+    div.light.content span.label {
+        background-color: #1A1A1A;
+        /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+        color: #FFFFFF;
+    }
+
+    div.card {
+        position: relative;
+        background-color: #efefef;
+        background-clip: padding-box;
+        margin-bottom: 2em;
+        border: 3px solid transparent;
+        border-radius: 1em;
+        padding: 2em;
+    }
+
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+    /*}*/
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*!* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45f9f9+0,20ea96+100 *!*/
+    /*background: #45f9f9; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg,  #45f9f9 0%, #20ea96 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg,  #45f9f9 0%,#20ea96 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg,  #45f9f9 0%,#20ea96 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45f9f9', endColorstr='#20ea96',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+    /*}*/
+    div.title {
+        position: relative;
+    }
+
+    div.title div.right {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 2em;
+    }
+
+    div.active {
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    div.skill {
+        margin-bottom: 2em;
+    }
+
+    div.skill h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    div.full-bar {
+        border: 1px solid #e4e4e4;
+        width: 100%;
+    }
+
+    div.progress-bar {
+        border: 3px solid #6a6a6a;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    hr {
+        margin-bottom: 3em;
+    }
+
+    div.content {
+        padding: 2em;
+    }
+
+    div.content h1,
+    div.content h2,
+    div.content h3,
+    div.content h4,
+    div.content h5,
+    div.content h6 {
+        font-family: 'DM Serif Text', serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content p,
+    div.content li {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content h1 {
+        font-size: 7em;
+    }
+
+    div.content h2 {
+        font-size: 6em;
+    }
+
+    div.content h3 {
+        font-size: 5em;
+    }
+
+    div.content h4 {
+        font-size: 4em;
+    }
+
+    div.content h5 {
+        font-size: 3em;
+    }
+
+    div.content h6 {
+        font-size: 2em;
+    }
+
+    div.content span.label {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75em;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin: 5px 5px 5px 0;
+    }
+
+    div.footer.content {
+        text-align: center;
+    }
+
+    div.content.footer a {
+        text-decoration: none;
+    }
+
+    div.content.footer a:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    div.footer.content p.copyright {
+        text-align: center;
+    }
+
+    div.footer.content div.link {
+        text-align: center;
+        display: inline-block;
+        margin: 2em 4em 3em;
+    }
+
+    div.footer.content div.link svg {
+        opacity: 0.5;
+        margin: auto;
+        width: 6em;
+        height: 6em;
+    }
+
+    div.footer.content div.link svg:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    div.main.content {
+        background: url("assets/nature.jpeg") no-repeat fixed bottom center;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
+        padding: 0;
+    }
+
+    div.main.content h1,
+    div.main.content h3,
+    div.main.content h4 {
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    div.main.content div.name {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+
+    div.main.content h3 {
+        line-height: 5rem;
+    }
+
+    div.main.content h1 {
+        line-height: 7rem;
+        letter-spacing: 5px;
+    }
+
+    div.main.content h4 {
+        line-height: 4rem;
+    }
+
+    div.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+
+    div.dark.content {
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+    }
+
+    div.light.content {
+        color: #000000;
+    }
+
+    div.experience {
+        margin-bottom: 2.5em;
+    }
+
+    div.experience h6.dates {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    div.light.content p,
+    div.light.content li,
+    div.light.content a,
+    div.light.content a:visited {
+        color: #444444;
+    }
+
+    div.light.content a:hover {
+        color: #000000;
+        cursor: pointer;
+    }
+
+    div.light.content ul {
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+
+    div.light.content span.label {
+        background-color: #1A1A1A;
+        /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+        color: #FFFFFF;
+    }
+
+    div.card {
+        position: relative;
+        background-color: #efefef;
+        background-clip: padding-box;
+        margin-bottom: 2em;
+        border: 3px solid transparent;
+        border-radius: 1em;
+        padding: 2em;
+    }
+
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+    /*}*/
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*!* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45f9f9+0,20ea96+100 *!*/
+    /*background: #45f9f9; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg,  #45f9f9 0%, #20ea96 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg,  #45f9f9 0%,#20ea96 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg,  #45f9f9 0%,#20ea96 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45f9f9', endColorstr='#20ea96',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+    /*}*/
+    div.title {
+        position: relative;
+    }
+
+    div.title div.right {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 2em;
+    }
+
+    div.active {
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    div.skill {
+        margin-bottom: 2em;
+    }
+
+    div.skill h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    div.full-bar {
+        border: 1px solid #e4e4e4;
+        width: 100%;
+    }
+
+    div.progress-bar {
+        border: 3px solid #6a6a6a;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    hr {
+        margin-bottom: 3em;
+    }
+
+    div.content {
+        padding: 2em;
+    }
+
+    div.content h1,
+    div.content h2,
+    div.content h3,
+    div.content h4,
+    div.content h5,
+    div.content h6 {
+        font-family: 'DM Serif Text', serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content p,
+    div.content li {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content h1 {
+        font-size: 7em;
+    }
+
+    div.content h2 {
+        font-size: 6em;
+    }
+
+    div.content h3 {
+        font-size: 5em;
+    }
+
+    div.content h4 {
+        font-size: 4em;
+    }
+
+    div.content h5 {
+        font-size: 3em;
+    }
+
+    div.content h6 {
+        font-size: 2em;
+    }
+
+    div.content span.label {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75em;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin: 5px 5px 5px 0;
+    }
+
+    div.footer.content {
+        text-align: center;
+    }
+
+    div.content.footer a {
+        text-decoration: none;
+    }
+
+    div.content.footer a:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    div.footer.content p.copyright {
+        text-align: center;
+    }
+
+    div.footer.content div.link {
+        text-align: center;
+        display: inline-block;
+        margin: 2em 4em 3em;
+    }
+
+    div.footer.content div.link svg {
+        opacity: 0.5;
+        margin: auto;
+        width: 6em;
+        height: 6em;
+    }
+
+    div.footer.content div.link svg:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    div.main.content {
+        background: url("assets/nature.jpeg") no-repeat fixed bottom center;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
+        padding: 0;
+    }
+
+    div.main.content h1,
+    div.main.content h3,
+    div.main.content h4 {
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    div.main.content div.name {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+
+    div.main.content h3 {
+        line-height: 5rem;
+    }
+
+    div.main.content h1 {
+        line-height: 7rem;
+        letter-spacing: 5px;
+    }
+
+    div.main.content h4 {
+        line-height: 4rem;
+    }
+
+    div.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+
+    div.dark.content {
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+    }
+
+    div.light.content {
+        color: #000000;
+    }
+
+    div.experience {
+        margin-bottom: 2.5em;
+    }
+
+    div.experience h6.dates {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    div.light.content p,
+    div.light.content li,
+    div.light.content a,
+    div.light.content a:visited {
+        color: #444444;
+    }
+
+    div.light.content a:hover {
+        color: #000000;
+        cursor: pointer;
+    }
+
+    div.light.content ul {
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+
+    div.light.content span.label {
+        background-color: #1A1A1A;
+        /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+        color: #FFFFFF;
+    }
+
+    div.card {
+        position: relative;
+        background-color: #efefef;
+        background-clip: padding-box;
+        margin-bottom: 2em;
+        border: 3px solid transparent;
+        border-radius: 1em;
+        padding: 2em;
+    }
+
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+    /*}*/
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*!* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45f9f9+0,20ea96+100 *!*/
+    /*background: #45f9f9; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg,  #45f9f9 0%, #20ea96 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg,  #45f9f9 0%,#20ea96 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg,  #45f9f9 0%,#20ea96 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45f9f9', endColorstr='#20ea96',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+    /*}*/
+    div.title {
+        position: relative;
+    }
+
+    div.title div.right {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 2em;
+    }
+
+    div.active {
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    div.skill {
+        margin-bottom: 2em;
+    }
+
+    div.skill h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+
+    div.full-bar {
+        border: 1px solid #e4e4e4;
+        width: 100%;
+    }
+
+    div.progress-bar {
+        border: 3px solid #6a6a6a;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+     * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    hr {
+        margin-bottom: 3em;
+    }
+
+    div.content {
+        padding: 2em 15%;
+    }
+
+    div.content h1,
+    div.content h2,
+    div.content h3,
+    div.content h4,
+    div.content h5,
+    div.content h6 {
+        font-family: 'DM Serif Text', serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content p,
+    div.content li {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.content h1 {
+        font-size: 5em;
+    }
+
+    div.content h2 {
+        font-size: 3em;
+    }
+
+    div.content h3 {
+        font-size: 3em;
+    }
+
+    div.content h4 {
+        font-size: 2em;
+    }
+
+    div.content h5 {
+        font-size: 2em;
+    }
+
+    div.content h6 {
+        font-size: 1.5em;
+    }
+
+    div.content span.label {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75em;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin: 5px 5px 5px 0;
+    }
+
+    div.footer.content {
+        text-align: center;
+    }
+
+    div.content.footer a {
+        text-decoration: none;
+    }
+
+    div.content.footer a:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    div.footer.content p.copyright {
+        text-align: center;
+    }
+
+    div.footer.content div.link {
+        text-align: center;
+        display: inline-block;
+        margin: 2em 4em 3em;
+    }
+
+    div.footer.content div.link svg {
+        opacity: 0.5;
+        margin: auto;
+        width: 6em;
+        height: 6em;
+    }
+
+    div.footer.content div.link svg:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    div.main.content {
+        background: url("assets/nature.jpeg") no-repeat fixed bottom center;
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
+        padding: 0;
+    }
+
+    div.main.content h1,
+    div.main.content h3,
+    div.main.content h4 {
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    div.main.content div.name {
+        position: absolute;
+        left: 15%;
+        top: 30%;
+    }
+
+    div.main.content h3 {
+        line-height: 3rem;
+    }
+
+    div.main.content h1 {
+        line-height: 5rem;
+        letter-spacing: 5px;
+    }
+
+    div.main.content h4 {
+        line-height: 2rem;
+    }
+
+    div.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.5;
+    }
+
+    div.dark.content {
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+    }
+
+    div.main.content + div.dark.content {
+        padding-bottom: 4em;
+    }
+
+    div.light.content {
+        color: #000000;
+    }
+
+    div.flex-container {
+        display: flex;
+    }
+
+    div.light.stack.content {
+        /*display: inline-block;*/
+        width: 30%;
+        flex-grow: 1;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.light.stack.content:nth-child(even) {
+        padding-left: 5%;
+        padding-right: 15%;
+    }
+
+    div.light.stack.content:nth-child(odd) {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+
+    div.experience {
+        margin-bottom: 2.5em;
+    }
+
+    div.experience h6.dates {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    div.light.content p,
+    div.light.content li,
+    div.light.content a,
+    div.light.content a:visited {
+        color: #444444;
+    }
+
+    div.light.content a:hover {
+        color: #000000;
+        cursor: pointer;
+    }
+
+    div.light.content ul {
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+
+    div.light.content span.label {
+        background-color: #1A1A1A;
+        /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+        color: #FFFFFF;
+    }
+
+    div.card {
+        width: 40%;
+        position: relative;
+        background-color: #efefef;
+        background-clip: padding-box;
+        margin-bottom: 2em;
+        border: 3px solid transparent;
+        border-radius: 1em;
+        padding: 1em;
+    }
+
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*background: linear-gradient(to bottom right, #fc7b76 0%, #bcfc54 25%, #70ecfd 50%, #ee6dfe 75%, #fd1892 100%);*/
+    /*}*/
+    /*div.card:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0; right: 0; bottom: 0; left: 0;*/
+    /*z-index: -1;*/
+    /*margin: -3px; !* !importanté *!*/
+    /*border-radius: inherit; !* !importanté *!*/
+    /*!* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45f9f9+0,20ea96+100 *!*/
+    /*background: #45f9f9; !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg,  #45f9f9 0%, #20ea96 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg,  #45f9f9 0%,#20ea96 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg,  #45f9f9 0%,#20ea96 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45f9f9', endColorstr='#20ea96',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+    /*}*/
+    div.title {
+        position: relative;
+    }
+
+    div.title div.right {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 2em;
+    }
+
+    div.active {
+        border-radius: 50%;
+        width: 0.75em;
+        height: 0.75em;
+    }
+
+    div.skill {
+        margin-bottom: 2em;
+    }
+
+    div.skill h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        display: inline-block;
+    }
+
+    div.full-bar {
+        display: inline-block;
+        float: right;
+        border: none;
+        border-top: 3px solid #e4e4e4;
+        width: 80%;
+        margin-top: 14px;
+    }
+
+    div.full-bar p {
+        display: inline;
+    }
+
+    div.full-bar p.right {
+        display: inline;
+        margin: 0;
+        float: right;
+    }
+
+    div.progress-bar {
+        background: none;
+        border: none;
+        border-top: 3px solid #6a6a6a;
+        margin-top: -3px;
+    }
+}
